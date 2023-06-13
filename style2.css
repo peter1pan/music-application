@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+}
+
+body {
+  background-color: #141517;
+}
+
+.grid-container .curretMusic {
+  margin: 0;
+  padding: 0;
+}
+.grid-container .curretMusic img {
+  height: -moz-max-content;
+  height: max-content;
+  width: 500px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.grid-container2 {
+  height: 64vh;
+}
+.grid-container2 .music-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.grid-container2 .music-list .playing {
+  background-color: rgba(245, 245, 245, 0.205);
+}
+.grid-container2 .music-list li {
+  padding: 1rem;
+  cursor: pointer;
+}
+.grid-container2 .music-list li:hover {
+  background-color: rgba(245, 245, 245, 0.205);
+  transition: 0.5s;
+}
+
+.footer-progress {
+  background-color: rgb(0, 0, 0);
+  height: 130px;
+}
+.footer-progress .time-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-progress .time-bar .sound-bar {
+  margin-top: 1rem;
+}
+.footer-progress .time-bar .duration-bar {
+  margin-top: 0.5rem;
+}
+.footer-progress .time-bar .duration-bar .time-range {
+  width: 300px;
+}
+.footer-progress .time-bar #controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-progress .time-bar #controls #shuffle,
+.footer-progress .time-bar #controls #loop {
+  cursor: pointer;
+  font-size: 20px;
+}
+.footer-progress .time-bar #controls #prev,
+.footer-progress .time-bar #controls #next {
+  font-size: 25px;
+}
+.footer-progress .time-bar #controls i {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+}
+.footer-progress .time-bar #controls i:hover {
+  color: #d3c3ff;
+  transition: 0.2s;
+}/*# sourceMappingURL=style2.css.map */
